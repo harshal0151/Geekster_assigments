@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+h1{
+    color: red;
+}
+.heading{
+    margin: 10px;
+    text-align: center;
+
+}
+ 
+img{
+    width: 300px;
+}
+.flexbox{
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
