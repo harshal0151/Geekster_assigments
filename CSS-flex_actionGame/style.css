@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+hr {
+    width: 50%;
+    height: 20px;
+    background-color:#cadff3;
+    border: 0 none;
+    border-radius: 10px;
+  }
+
+body{
+    width:  100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    
+    
+}
+
+ main{
+   width: 70%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+
+  
+   
+}
+
+.leftCard{
+    width: 30%;
+    background-color:#F0F8FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+} 
+
+.profile{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;  
+}
+
+.profile img{
+    border-radius: 50%;
+    object-fit: cover; 
+}
+
+.profile h3{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.profile p{
+    font-size: 0.8rem;
+}
+
+
+
+.menu ul li{
+
+    list-style: none;
+    display: flex;
+    justify-content:start;
+    align-items: start;   
+    padding: 1rem;
+    gap: 25px;
+}
+.menu  h3,i{
+    font-size: 1.3rem;
+    color: rgb(99, 204, 204);
+}
+
+
+.joinCard{
+    width: 70%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgb(94, 218, 237);
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    
+
+}
+.joinCard img{
+  width: 90px;
+  object-fit: cover;
+
+  border-radius: 50%;
+ 
+}
+
+.joinCard p{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+}
+
+.rightCard{
+    width: 70%;
+    background-color: #E0FFFF;   
+    display: flex;
+    flex-direction: column;
+      align-items: start;
+    justify-content: space-evenly;
+}
+
+.header{
+    width: 100%;
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+    margin-bottom:2rem ;
+    
+   
+}
+.gameArea{
+    width: 100%;
+   height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:2.5rem ;
+    
+    
+    
+}
+
+
+.gameCard{
+    width: 80%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgb(194, 230, 230);
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.gamename p{
+    padding: 0.2rem;
+}
+
+.gameCard hr {
+    width: 100%;
+    height: 17px;
+    background-color:#5f90be;
+    border: 0 none;
+    border-radius: 10px;
+  }
+
+.gameCard img{
+    border-radius: 30px;
+    height:  95px;
+    object-fit: cover;
+}
+
+
+
+
+
