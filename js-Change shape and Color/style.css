@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#container div:not(:first-child){
+    text-align: center;
+}
+
+#circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: green;
+    box-sizing: border-box;
+}
+
+.inner{
+    background-color: white;
+    position: relative;
+    width: 75px;
+    height: 75px;
+    left: 38px;
+    top: 40px;
+}
+
+.triangle-bottom-left{
+    background-color: transparent;
+    position: relative;
+    left: 38px;
+    top: 40px;
+    width: 0;
+    height: 0;
+    border-bottom: 75px solid red;
+    border-right: 75px solid transparent;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    gap: 1rem;
+    
+}
+button{
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: none;
+    
+}
