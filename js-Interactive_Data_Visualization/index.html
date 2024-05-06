@@ -9,9 +9,22 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
 </head>
 <body>
+    
     <div class="container">
+
         <div class="chart-container">
             <canvas id="myChart"></canvas>
+        </div>
+        <div >
+            <select id="chartTypeSelect">
+                <option value="bar">Bar</option>
+                <option value="line">Line</option>
+                <option value="scatter">Scatter</option>
+                <option value="bubble">Bubble</option>
+                <option value="doughnut">Doughnut</option>
+                <option value="polarArea">PolarArea</option>
+                <option value="radar">Radar</option> 
+            </select>
         </div>
     </div>
 
